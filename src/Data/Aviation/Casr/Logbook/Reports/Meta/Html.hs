@@ -11,7 +11,7 @@ import Data.Aviation.Casr.Logbook.Reports.Html(htmlFlightTimeReport, htmlSimulat
 import Data.Aviation.Casr.Logbook.Reports.Meta(ExpenseReport(ExpenseReport), logbookExpenseReport)
 import Data.Aviation.Casr.Logbook.Meta(AircraftFlightMeta, SimulatorFlightMeta, ExamMeta, BriefingMeta)
 import Data.Aviation.Casr.Logbook.Meta.Html(showThousandCentsAsDollars, showHundredCentsAsDollars)
-import Data.Aviation.Casr.Logbook(Logbook)
+import Data.Aviation.Casr.Logbook.Types(Logbook)
 import Data.Function(($))
 import Data.String(fromString)
 import qualified Data.Text as Text(pack)
